@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+.header_wrapper {
+    display: flex;   
+    color: #425a8b;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+}
+  
+  nav {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 210px;
+    margin-left: 52px;
+    margin-right: 59px;
+  }
+  
+  .nav_left {
+     display: flex;
+  }
+  
+  .nav_links {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .nav_right {
+      display: flex;
+      gap: 10px;
+  }
+
+.nav_right_enquiry {
+    display: flex;
+    gap: 8px;
+}
+
+.nav_right_dropdown {
+    display: flex;
+    gap:4px;
+}
+
+.dropdown {
+    display: flex;
+}
+
+.below_nav {
+    display: flex;
+    gap:110px;
+    padding-top: 38px;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+}
+.header_dropdown {
+    display: flex;
+    gap:4px;
+}
+
+.header_icons {
+    display: flex;
+}
+
+span {
+    color: green;
+    font-size: 18px;
+}
+
+.search {
+    display: flex;
+}
+
+.search_box {
+    display: flex;
+}
+
+.search_bar {
+    display: flex;
+}
+
+.header_icons {
+    display: flex;
+    gap:8px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+ 
+.hero_links_list {
+    display: flex;
+    gap:10px;
+}
+
+.hero_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    gap: 30px;
+}
